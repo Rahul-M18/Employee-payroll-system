@@ -16,8 +16,8 @@ def add_employee():
     basic = float(input("Enter Basic Salary: "))
 
     # Salary Calculations
-    hra = basic * 0.20    # 20%
-    da = basic * 0.15     # 15%
+    hra = basic * 0.20    # 20%  HRA-house rent allowance
+    da = basic * 0.15     # 15%   DA-Dearness Allowance
     tax = basic * 0.10    # 10%
 
     net = basic + hra + da - tax
